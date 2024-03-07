@@ -1,0 +1,172 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a global font family and color */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: url('background-image.jpg') center/cover no-repeat fixed;
+    background-color: #f4f4f4;
+    background-blend-mode: overlay;
+    background-color: rgba(244, 244, 244, 0.8);
+}
+
+/* Center the content */
+table {
+    margin: auto;
+}
+
+/* Main Head Section styles */
+table[bgcolor="#FFB6C1"] {
+    width: 90%;
+    background-color: #FFB6C1;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+p {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Add hover effect to the LinkedIn link */
+a:hover {
+    color: #ff4500;
+}
+
+/* Objective Section styles */
+table[bgcolor="#eee"] {
+    width: 90%;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Education Section styles */
+table[bgcolor="#fff"] {
+    width: 90%;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+strong {
+    font-size: 1.2em;
+    color: rgb(61, 60, 60);
+}
+
+font[size="4"] {
+    font-size: 1.1em;
+    color: #555;
+}
+
+img {
+    border-radius: 5px;
+}
+
+/* Technical Skills Section styles */
+table[bgcolor="#eee"] ul {
+    list-style-type: none;
+}
+
+/* Experience and Projects Section styles */
+table[bgcolor="#fff"] h2 {
+    margin-bottom: 15px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+
+    h1, h2, h3, p {
+        text-align: center;
+    }
+
+    table[bgcolor="#FFB6C1"], table[bgcolor="#eee"], table[bgcolor="#fff"] {
+        width: 100%;
+    }
+}
+
+.side-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    z-index: 100;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-div-1
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 9px;
+    margin-top: 20px;
+}
+
+.side-div-2{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+.side-div-3{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.side-div-4{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.link-image{
+    object-fit: fill;
+    width: 20px;
+
+
+}
+
+.link-image:hover{
+    width: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
